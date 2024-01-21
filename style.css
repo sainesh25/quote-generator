@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    margin: 0;
+}
+main{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./flowers-bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.quote-generator{
+    background-color: #b8b8ff;
+    width: 50%;
+    padding: 2rem;
+    text-align: center;  
+    border-radius: 4px;
+    box-shadow: -6px -8px 20px rgba(0, 0, 0, 0.514);
+}
+#generateBtn{
+    background-color: rgb(123, 0, 238);
+    border: 0;
+    color: white;
+    border-radius: 3px;
+    padding: .8rem 1rem;
+    font-weight: 800;
+}
+#copyTextBtn, #copyTwitterBtn{
+    padding:  .5rem;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    margin-right: .5rem;
+}
+#copyTextBtn:hover, #copyTwitterBtn:hover{
+    border: 2px solid rgb(93, 4, 177);
+    border-radius: 3px;
+}
+.copy-part{
+    display: flex;
+    align-items: center;
+}
+.quote-head{
+    
+}
+#copiedTxt{
+    margin-right: .5rem;
+    color: rgb(15, 156, 15);
+    text-align: left;
+    font-weight: 400;
+    font-size: .8rem;
+}
+.quote-sentence{
+    font-family: 'Dancing Script', cursive;
+}
+
+.buttons{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 3rem; */
+}
